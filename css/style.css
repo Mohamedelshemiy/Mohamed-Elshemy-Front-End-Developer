@@ -1,0 +1,114 @@
+:root {
+    --main-color: #9da4a5;
+    --black-color: #212529;
+    --white-color: #ffffff;
+    --font-size: 1rem;
+}
+
+/* master head */
+
+.master-head {
+
+    height: 100vh;
+    background-image: url("../img/bg-masterhead111.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.master-head .btn-sidebar {
+    margin: 1.5%;
+}
+
+
+.master-head .offcanvas-end {
+
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
+
+.master-head .caption h1 {
+
+    font-size: calc(var(--font-size) + 3rem);
+    color: var(--main-color);
+}
+
+.master-head .caption p {
+
+    font-size: calc(var(--font-size) + 1rem);
+        color: var(--main-color);
+
+
+}
+
+.master-head .caption .View-CV {
+
+    background-color: var(--main-color);
+    color: var(--white-color);
+    
+}
+
+.master-head .caption .Download-CV {
+
+    background-color: var(--main-color);
+    color: var(--white-color);
+
+}
+
+/* ./masthead */
+/* about me */
+
+.about-me {
+
+    padding: 5% 0;
+
+}
+
+.about-me h2 {
+
+    font-size: calc(var(--font-size) + 1rem);
+}
+
+.about-me p {
+
+    font-size: calc(var(--font-size) + .25rem);
+
+    /* padding: 1.5% 2.5%; */
+
+}
+
+.about-me p a {
+
+    color: var(--main-color);
+
+}
+
+/* ./about me */
+/* services */
+
+.services {
+    background-color: var(--main-color);
+    padding: 5% 0;
+}
+
+.services .serv {
+    color: var(--white-color);
+    padding: 5% 0;
+
+}
+
+
+.services h3 {
+    color: var(--white-color);
+    font-size: calc(var(--font-size) + .5rem);
+}
+
+.services p {
+    color: var(--white-color);
+}
+/* ./servecis */
+/* skills */
+.skills .items-center {
+    align-items: center;
+    background-color: var(--main-color);
+}
+/* ./skills */

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Elshemy | Front-End Developer</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/Pstyle.css">
+</head>
+
+<body>
+    <!-- ================= HEADER ================= -->
+    <header class="hero-section d-flex align-items-center">
+        <button class="btn btn-dark sidebar-btn" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="container text-center">
+            <h1 class="mb-3">Mohamed Elshemy</h1>
+            <h2 class="mb-4">Front-End Web Developer</h2>
+            <p class="mb-4">
+                I create modern, responsive and user-friendly websites.
+            </p>
+
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#" class="btn btn-primary">View CV</a>
+                <a href="#" class="btn btn-outline-primary">Download CV</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ================= SIDEBAR ================= -->
+    <div class="offcanvas offcanvas-end" id="sidebar">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Menu</h5>
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav flex-column gap-3">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about-section text-center" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-desc">
+                I'm a Front-End Developer specialized in building clean, responsive,
+                and high-quality user interfaces using modern web technologies.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">My Services</h2>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-box text-center">
+                        <i class="fa-solid fa-code"></i>
+                        <h4>Website Development</h4>
+                        <p>
+                            I build fast, responsive websites based on modern standards.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="service-box text-center">
+                        <i class="fa-solid fa-palette"></i>
+                        <h4>UI Design</h4>
+                        <p>
+                            Clean and modern designs that match your brand identity.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="service-box text-center">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                        <h4>Responsive Design</h4>
+                        <p>
+                            Websites that look great on all devices and screen sizes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="skills-section" id="skills">
+        <div class="container text-center">
+            <h2 class="section-title mb-4">Skills</h2>
+
+            <div class="skills-icons d-flex flex-wrap justify-content-center gap-4">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-bootstrap"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= CERTIFICATES ================= -->
+    <section class="certificates-section" id="certificates">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Certificates</h2>
+
+            <div class="row g-4">
+
+                <!-- Certificate 1 -->
+                <div class="col-md-4">
+                    <div class="certificate-card" data-bs-toggle="modal" data-bs-target="#cert1">
+                        <img src="img/cls-front.jpg" alt="HTML CSS JavaScript Certificate">
+                        <div class="certificate-info">
+                            <h5>HTML5, CSS3 & JavaScript</h5>
+                            <p>Microsoft Official Course</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="col-md-4">
+                    <div class="certificate-card" data-bs-toggle="modal" data-bs-target="#cert2">
+                        <img src="img/cls-csharp.jpg" alt="C# Programming Certificate">
+                        <div class="certificate-info">
+                            <h5>C# Programming</h5>
+                            <p>Microsoft Official Course</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate 3 -->
+                <div class="col-md-4">
+                    <div class="certificate-card" data-bs-toggle="modal" data-bs-target="#cert3">
+                        <img src="img/cls-asp.jpg" alt="ASP.NET Certificate">
+                        <div class="certificate-info">
+                            <h5>ASP.NET Web Applications</h5>
+                            <p>Microsoft Official Course</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate 4 -->
+                <div class="col-md-4">
+                    <div class="certificate-card" data-bs-toggle="modal" data-bs-target="#cert4">
+                        <img src="img/cls.jpg" alt="ASP.NET Certificate">
+                        <div class="certificate-info">
+                            <h5>ASP Full Stack Developer</h5>
+                            <p>CLS Learning Solutions | Microsoft Official Course</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate 5 -->
+                <div class="col-md-4">
+                    <div class="certificate-card" data-bs-toggle="modal" data-bs-target="#cert5">
+                        <img src="img/frontraiseup.jpg" alt="ASP.NET Certificate">
+                        <div class="certificate-info">
+                            <h5>Front-End Developer</h5>
+                            <p>RaiseUp Learning Solutions</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Certificate Modals -->
+
+            <div class="modal fade" id="cert1" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="img/cls-front.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="cert2" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="img/cls-csharp.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="cert3" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="img/cls-asp.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="cert4" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="img/cls.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="cert5" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                    <div class="modal-content">
+                        <img src="img/frontraiseup.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <footer class="footer-section text-center" id="contact">
+        <div class="container">
+            <h3>Let’s Work Together</h3>
+            <p>Email: mohamed.aelshemiy@gmail.com</p>
+
+            <div class="social-links d-flex justify-content-center gap-3">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="JS/scripts.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
